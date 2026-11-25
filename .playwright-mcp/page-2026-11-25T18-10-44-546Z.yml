@@ -1,0 +1,63 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - heading " Fast-Food-Fast!" [level=1] [ref=f1e5]:
+        - generic [ref=f1e6]: 
+        - link "Fast-Food-Fast!" [ref=f1e7] [cursor=pointer]:
+          - /url: userIndex
+      - navigation [ref=f1e8]:
+        - link "Home" [ref=f1e9] [cursor=pointer]:
+          - /url: userIndex
+        - link "Menu " [ref=f1e12] [cursor=pointer]:
+          - /url: "#"
+          - text: Menu
+          - generic [ref=f1e13]: 
+        - link "Logout" [ref=f1e17] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=f1e18]: 0 Cart
+        - generic [ref=f1e19]:
+          - text: Search for food
+          - textbox "Search for food" [ref=f1e20]:
+            - /placeholder: Search for food..
+          - button "" [ref=f1e21] [cursor=pointer]
+    - generic [ref=f1e23]:
+      - heading "Welcome" [level=1] [ref=f1e24]
+      - heading "Please select from our variety of meals, snacks and drinks and add your choices to cart." [level=3] [ref=f1e25]
+      - paragraph [ref=f1e26]:
+        - generic [ref=f1e27]:
+          - text: Click the shopping cart
+          - generic [aria-hidden] [ref=f1e28]: 
+          - text: above to view cart
+    - generic [ref=f1e29]:
+      - heading "MEALS" [level=2] [ref=f1e31]
+      - heading "SIDE/SNACKS" [level=2] [ref=f1e33]
+      - heading "DRINKS" [level=2] [ref=f1e35]
+      - heading "COMBO/SPECIALS" [level=2] [ref=f1e37]
+      - heading "DESSERTS" [level=2] [ref=f1e39]
+    - generic [ref=f1e41]:
+      - generic [ref=f1e42]: «
+      - generic: "1"
+      - generic [ref=f1e44]: »
+    - generic [ref=f1e45]:
+      - generic [ref=f1e46]:
+        - heading "View Recent Order History" [level=1] [ref=f1e47]
+        - list
+      - table [ref=f1e49]:
+        - rowgroup [ref=f1e50]:
+          - row [ref=f1e51]:
+            - columnheader "Date" [ref=f1e52]
+            - columnheader "Item" [ref=f1e53]
+            - columnheader "Name" [ref=f1e54]
+            - columnheader "Quantity" [ref=f1e55]
+            - columnheader "Price" [ref=f1e56]
+  - contentinfo [ref=f1e57]:
+    - paragraph [ref=f1e58]:
+      - text: Contact us on
+      - generic [ref=f1e59]: 
+      - text: +234 8146509343 | bobsarglobal@gmail.com
+    - paragraph [ref=f1e60]:
+      - text: Subscribe to our
+      - generic [ref=f1e61]: 
+      - generic [ref=f1e62]: 
+      - generic [ref=f1e63]: 
+    - paragraph [ref=f1e64]: Fast-Food-Fast!, Copyright © 2018
